@@ -1,0 +1,38 @@
+.card_container {
+    margin: 5px;
+    padding: 5px;
+}
+
+ .image_container {
+    position: relative;
+    z-index: 100;
+}
+/*
+.selected_image {
+    width: 150px;
+}
+
+.links:hover {
+    width: 250px;
+} */
+
+/* .links {
+    position: absolute;
+} */
+
+.details {
+    position: relative;
+    top: 2px;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
+    height: max-content;
+    /* margin-left: 10%; */
+    margin-bottom: 20px;
+}
+
+img:hover {
+    width: 155px;
+    opacity: 0.3;
+    z-index: 90;
+}
